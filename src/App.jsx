@@ -345,6 +345,14 @@ function App() {
             ))
           )}
         </div>
+        {records.length > 0 && (
+          <button
+            className="btn btn-error mt-4 w-full"
+            onClick={deleteAllRecords}
+          >
+            Delete All Records
+          </button>
+        )}
       </div>
     </div>
   );
