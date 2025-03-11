@@ -28,7 +28,6 @@ function App() {
   };
 
   const [records, setRecords] = useState(loadRecords);
-  // const [records, setRecords] = useState("");
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [botoxQuantity, setBotoxQuantity] = useState(0);
   const [fillerQuantity, setFillerQuantity] = useState(0);
@@ -79,14 +78,14 @@ function App() {
 
     const branchRates = {
       "V-Square": {
-        เดอะมอลล์บางแค: 1000,
-        เดอะมอลล์ท่าพระ: 1000,
+        "เดอะมอลล์บางแค": 1000,
+        "เดอะมอลล์ท่าพระ": 1000,
         "Terminal พระราม3": 2000,
         "เซนทรัล พระราม3": 2000,
-        สยาม: 2500,
+        "สยาม": 2500,
         "Terminal สุขุมวิท": 3000,
         "One Bangkok": 3000,
-        "เซนทรัลพระราม 2": 2500,
+        "เซนทรัล พระราม2": 2500
       },
       SLC: { เดอะมอลล์บางแค: 3000 },
       LABX: { เดอะมอลล์บางแค: 3000, ซีคอนบางแค: 3000 },
